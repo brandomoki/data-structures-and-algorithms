@@ -9,7 +9,8 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 ## Approach & Efficiency
 
 Broke down the problem step by step and talked through with my partner.
-After we were able to efficiently talk through isssue then we coded
+After we were able to efficiently talk through isssue then we coded.
+this is a test
 
 ## Credits
 
