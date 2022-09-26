@@ -12,31 +12,41 @@ class LinkedList{
     this.head = null;
   }
 
-  add(value){
-    // creates new node
+  insert(value){
     let node = new Node(value);
-
-
-    if(!this.head){
+    if (!this.head){
       this.head = node;
       return;
     }
 
-    let current = this.head;
-
-    while(current.next){
-      current = current.next;
-    }
-    current.next = node;
   }
-
 }
-
 let list = new LinkedList();
 console.log('empty list', list);
 
-list.add('A');
-list.add('B');
-list.add('C');
+//   add(value){
+//     // creates new node
+//     let node = new Node(value);
 
-console.log('filled list', list);
+
+//     if(!this.head){
+//       this.head = node;
+//       return;
+//     }
+
+//     let current = this.head;
+
+//     while(current.next){
+//       current = current.next;
+//     }
+//     current.next = node;
+//   }
+
+// }
+
+
+// list.insert('A');
+// list.insert('B');
+// list.insert('C');
+
+// console.log('filled list', list);
