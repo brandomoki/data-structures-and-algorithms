@@ -1,7 +1,5 @@
 'use strict';
 
-const { insertBefore } = require("cheerio/lib/api/manipulation");
-
 class Node {
   constructor(value){
     this.value = value;
@@ -22,9 +20,6 @@ class LinkedList{
     }
 
   }
-}
-let list = new LinkedList();
-console.log('empty list', list);
 
   add(value){
     // creates new node
@@ -56,11 +51,12 @@ console.log('empty list', list);
       if (current.next.value === value){
         let newNode = new Node(newValue);
         newNode.next = current.next;
-        current.next = newNode
-        return
+        current.next = newNode;
+        return;
       }
       current = current.next;
     }
+  }
 
   kthFromEnd(k) {
     let length = 0;
@@ -72,19 +68,24 @@ console.log('empty list', list);
 
     let results = length - k;
     if (results < 1 || result > length)
-    return 'Exception';
+      return 'Exception';
     current = this.head;
-    for (let i = 1; i < result; i++) {
+    for (let i = 1; i < results; i++) {
       current = current.next;
     }
     return current.value;
   }
+
 }
 
+// let list = new LinkedList();
+// console.log('empty list', list);
 
-insertAfter(value,)
-list.insert('1');
-list.insert('2');
-list.insert('3');
+// insertAfter(value,)
+// list.insert('1');
+// list.insert('2');
+// list.insert('3');
 
 // console.log('filled list', list);
+
+module.exports = LinkedList;
