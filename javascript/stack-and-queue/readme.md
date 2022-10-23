@@ -43,4 +43,4 @@ You have access to the Node class and all the properties on the Linked List clas
 
 ## Code Challenge 13
 
-![Code-Challenge-13](./img/Code%20challenge%2013.png)
+
