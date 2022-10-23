@@ -1,6 +1,6 @@
 'use strict';
 
-const { Node, Stack, Queue} = require('../stack-and-queus');
+const { Node, Stack, Queue, AnimalShelter} = require('../stack-and-queues');
 
 describe('Stacks and Queues', () => {
 
