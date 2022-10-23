@@ -1,4 +1,4 @@
-# Trees
+# Binary Trees
 
 ## Challenge
 Node
@@ -21,7 +21,9 @@ Argument: value
 Returns: boolean indicating whether or not the value is in the tree at least once.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
-## API
-<!-- Description of each method publicly available in each of your trees -->
+- O(1)
+
+## Collaborators
+
+- Worked with Stephen Clemmer
