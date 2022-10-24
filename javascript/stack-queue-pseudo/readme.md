@@ -1,19 +1,20 @@
-# stack-queue
-
+# stack-queue-psuedo
 
 ## Challenge
-Write the following methods for the Linked List class:
 
-append
-arguments: new value
-adds a new node with the given value to the end of the list
-insert before
-arguments: value, new value
-adds a new node with the given new value immediately before the first node that has the value specified
-insert after
-arguments: value, new value
-adds a new node with the given new value immediately after the first node that has the value specified
--
+- Implement a Queue using two Stacks.
+  - Methods:
+    - enqueue
+      - Arguments: value
+      - Inserts a value into the PseudoQueue, using a first-in, first-out approach.
+  - dequeue
+    - Arguments: none
+    - Extracts a value from the PseudoQueue, using a first-in, first-out approach.
+
 ## Approach & Efficiency
 
 - O(1)
+
+## Collaborators
+
+- Luis Rosales
