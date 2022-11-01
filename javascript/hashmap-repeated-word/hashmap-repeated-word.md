@@ -1,5 +1,15 @@
 # Hashmap-Repeated-Word
 
+## Challenge
+
+* Write a function called repeated word that finds the first word to occur more than once in a string
+* Arguments: string
+* Return: string
+
+## Resources
+
+[geeksforgeeks](https://www.geeksforgeeks.org/find-first-repeated-word-string/)
+
 * The function takes a string as an argument and returns the first word that is repeated in the string
 * @param string - the string to be searched
 * @returns The first word that is being repeated.
