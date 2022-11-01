@@ -1,6 +1,5 @@
 'use strict';
 
-const {LinkedList} = require('../linked-list/index');
 
 class HashTable {
   constructor(size){
