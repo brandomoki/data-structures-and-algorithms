@@ -30,4 +30,4 @@ function first_repeating_word(string){
 console.log(first_repeating_word(test));
 
 
-
+module.exports = first_repeating_word;
