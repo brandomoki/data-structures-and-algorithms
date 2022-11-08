@@ -36,3 +36,4 @@ Write the following method for the Graph class:
 [breadth-first-search-traversal-javascript](https://linuxhint.com/breadth-first-search-traversal-javascript/)
 [geeksforgeeks](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 
+[fireship.io](https://fireship.io/courses/javascript/interview-graphs/)
