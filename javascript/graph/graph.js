@@ -40,7 +40,7 @@ class Graph {
 
   getNeighbors(vertex){
     if(!this._adjacencyList.has(vertex)){
-      throw new Error('Invalid Vertex');
+      throw new Error('null');
     }
     return [...this._adjacencyList.get(vertex)];
   }
