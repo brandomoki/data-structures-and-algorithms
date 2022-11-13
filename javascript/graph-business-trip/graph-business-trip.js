@@ -13,35 +13,6 @@
 // 2. If possible, return the cost of the trip
 // 3. If not, return null
 
-// Edge cases:
-// 1. If the array is empty, return null
-// 2. If the array has only one city, return 0
-
-// Pseudocode:
-// 1. Check if the array is empty
-// 2. If it is, return null
-// 3. Check if the array has only one city
-// 4. If it does, return 0
-// 5. Check if the trip is possible with direct flights
-// 6. If it is, return the cost of the trip
-// 7. If not, return null
-
-// Big O:
-// Time: O(n)
-// Space: O(1)
-
-// Algorithm:
-// 1. Check if the array is empty
-// 2. If it is, return null
-// 3. Check if the array has only one city
-// 4. If it does, return 0
-// 5. Check if the trip is possible with direct flights
-// 6. If it is, return the cost of the trip
-// 7. If not, return null
-
-
-// Code:
-
 /**
  * If the array is empty, return null. If the array has one element, return 0. Otherwise, loop through the array and add the cost of each flight to the total cost. If the flight doesn't exist, return
  * null.
